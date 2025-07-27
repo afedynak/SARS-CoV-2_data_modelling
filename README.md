@@ -1,4 +1,4 @@
-# SARS-CoV-2 Wastewater Surveillance Modeling
+# SARS-CoV-2 Wastewater Surveillance Modelling
 This repository presents an analysis and modeling pipeline for wastewater-based epidemiology (WBE) in tracking SARS-CoV-2 concentrations in Ontario, Canada. The primary objective is to leverage wastewater data, including qPCR concentrations of N1 and N2 gene markers, to predict daily viral loads using advanced statistical and machine learning models.
 
 ## Key Features
