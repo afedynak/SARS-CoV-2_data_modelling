@@ -40,7 +40,7 @@ To compare traditional statistical methods with modern machine learning techniqu
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/repository-name.git
+git clone https://github.com/afedynak/SARS-CoV-2_data_modelling.git
 ```
 
 
