@@ -4,7 +4,7 @@ This repository presents an analysis and modeling pipeline for wastewater-based 
 ## Key Features
 Wastewater Data Analysis: Analysis of SARS-CoV-2 gene concentrations in wastewater from Guelph and Niagara Falls, Ontario.
 
-Random Forest Regression: Machine learning approach used to predict daily SARS-CoV-2 concentrations in wastewater with high accuracy (R² = 0.96).
+Random Forest Regression: Machine learning approach used to predict daily SARS-CoV-2 concentrations in wastewater.
 
 Model Evaluation: Comparison of Random Forest with traditional multivariable linear regression to highlight the strengths of non-linear modeling.
 
@@ -17,14 +17,24 @@ To assess the impact of wastewater surveillance for public health monitoring and
 
 To compare traditional statistical methods with modern machine learning techniques to evaluate performance in complex data settings.
 
-#  Repository Contents
-data/: Raw and processed data of wastewater SARS-CoV-2 concentrations.
+# Repository Contents
 
-scripts/: R scripts for data preprocessing, statistical analysis, and model building.
+## **data/**: Raw and processed data files
+- **`sars_cov2_raw_data.csv`**: Original, unprocessed dataset containing daily SARS-CoV-2 concentrations in wastewater from multiple sites.
+- **`sars_cov2_processed_data.csv`**: Cleaned and transformed dataset, ready for analysis and modeling.
+  
+## **scripts/**: R scripts for data analysis and modeling
+- **`data_preprocessing.R`**: Script for cleaning, merging, and transforming the raw data (e.g., handling missing values, aggregating by date).
+- **`random_forest_analysis.R`**: R script to train and evaluate the Random Forest regression model for predicting SARS-CoV-2 concentrations.
+- **`linear_regression_analysis.R`**: Script to perform multivariable linear regression analysis for comparison with Random Forest.
 
-figures/: Visualizations of SARS-CoV-2 trends, including daily cases, rolling averages, and predicted vs. observed values.
+## **figures/**: Saved figures from the analysis
+- **`sars_cov2_trends.jpg`**: Visualization of SARS-CoV-2 concentration trends over time.
+- **`predicted_vs_observed_sars_cov2.jpg`**: Scatter plot comparing predicted vs. observed SARS-CoV-2 concentrations.
 
-docs/: Documentation for methods and usage.
+## **docs/**: Documentation for methods and repository usage
+- **`methodology.pdf`**: A comprehensive guide explaining the methods used for data collection, preprocessing, modeling, and evaluation in this repository.
+- **`usage_guide.md`**: Step-by-step instructions for setting up the repository, running the analysis, and reproducing the results.
 
 ## How to Use
 Clone the repository:
