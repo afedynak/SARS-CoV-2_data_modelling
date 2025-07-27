@@ -55,7 +55,7 @@ install.packages(c("ggplot2", "randomForest", "dplyr", "zoo", "caret"))
 If you use or adapt this work, please cite:
 
 A.A. Fedynak. (2025). Modeling and Analysis of Daily SARS-CoV-2 Concentrations in Wastewater in Ontario, Canada Using N1 and N2 Gene Targets and Random Forest Regression. <br>
-DOI: [https://dx.doi.org/10.6084/m9.figshare.29651705](https://doi.org/10.6084/m9.figshare.29651705.v2)
+DOI: https://doi.org/10.6084/m9.figshare.29651705.v4
 
 ## License
 This project is licensed under the MIT License.
