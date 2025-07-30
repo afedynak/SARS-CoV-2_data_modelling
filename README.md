@@ -33,7 +33,6 @@ To compare traditional statistical methods with modern machine learning techniqu
 - **`predicted_vs_observed_sars_cov2.jpg`**: Scatter plot comparing predicted vs. observed SARS-CoV-2 concentrations.
 
 **docs/**: Documentation for methods and repository usage
-- **`methodology.pdf`**: A comprehensive guide explaining the methods used for data collection, preprocessing, modeling, and evaluation in this repository.
 - **`usage_guide.md`**: Step-by-step instructions for setting up the repository, running the analysis, and reproducing the results.
 
 ## How to Use
