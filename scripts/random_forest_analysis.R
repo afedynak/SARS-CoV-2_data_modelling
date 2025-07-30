@@ -32,7 +32,7 @@ rf_model <- randomForest(value_daily ~ log_N1 + log_N2,
 
 print(rf_model)
 
-# Optionally, plot the importance
+# Plot the importance
 varImpPlot(rf_model)
 
 vif_model <- lm(log_rolling_avg_7day ~ log_N1 + log_N2 , data = rf_data)
@@ -40,9 +40,6 @@ vif(vif_model)
 
 # Get variable importance
 importance(rf_model)
-
-# Plot variable importance
-varImpPlot(rf_model)
 
 # Set up a list of hyperparameters to tune
 ntree_values <- c(100, 200, 500)
